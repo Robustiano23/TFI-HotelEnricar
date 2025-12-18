@@ -2,35 +2,35 @@ import React from 'react';
 import { FileText, Database, Code, CheckCircle } from 'lucide-react';
 
 const Project = () => {
+
   const etapas = [
     { 
       id: 1, 
       titulo: "Etapa 1: La Empresa", 
       desc: "Definición del perfil empresarial, misión, visión, organigrama y modelado de procesos de negocio (BPD).", 
       icon: <FileText size={24} />, 
-      // La ruta empieza con / porque busca en la carpeta 'public'
-      link: "/docs/etapa1.pdf" 
+      link: "/TFI-HotelEnricar/docs/etapa1.pdf" 
     },
     { 
       id: 2, 
       titulo: "Etapa 2: Requerimientos", 
       desc: "Especificación de requisitos, reglas de dominio, análisis de stakeholders y visión general del producto.", 
       icon: <Database size={24} />, 
-      link: "/docs/etapa2.pdf" 
+      link: "/TFI-HotelEnricar/docs/etapa2.pdf" 
     },
     { 
       id: 3, 
       titulo: "Etapa 3: Análisis y Diseño", 
       desc: "Desarrollo de casos de uso, prototipos de interfaz, diagramas de secuencia y modelo de dominio.", 
       icon: <Code size={24} />, 
-      link: "/docs/etapa3.pdf" 
+      link: "/TFI-HotelEnricar/docs/etapa3.pdf" 
     },
     { 
       id: 4, 
       titulo: "Etapa 4: Gestión e Implementación", 
       desc: "Glosario técnico, informe de viabilidad (técnica, económica y operativa), gestión del proyecto y conclusiones.", 
       icon: <CheckCircle size={24} />, 
-      link: "/docs/etapa4.pdf" 
+      link: "/TFI-HotelEnricar/docs/etapa4.pdf" 
     },
   ];
 
@@ -47,7 +47,6 @@ const Project = () => {
           </p>
         </div>
 
-        {/* GRILLA: 1 col (móvil), 2 cols (tablet), 4 cols (PC) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {etapas.map((etapa) => (
             <div key={etapa.id} className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-emerald-600 hover:shadow-lg transition-all duration-300 flex flex-col">
@@ -57,7 +56,6 @@ const Project = () => {
               </div>
               <p className="text-gray-600 text-sm mb-6 flex-grow leading-relaxed">{etapa.desc}</p>
               
-              {/* Botón de descarga/visualización */}
               <a 
                 href={etapa.link} 
                 target="_blank" 

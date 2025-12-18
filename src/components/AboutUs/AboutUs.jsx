@@ -17,7 +17,10 @@ const AboutUs = () => {
           <h3 className="text-3xl font-serif font-bold text-gray-800 mb-6">Nuestra Historia</h3>
           <div className="prose text-gray-700 leading-relaxed text-lg space-y-4">
             <p>
-              [AQUÍ PEGAR TEXTO DE HISTORIA] El Hotel Enricar abrió sus puertas con el sueño de convertirse en un referente de hospitalidad en Termas de Río Hondo. Desde nuestros inicios como un pequeño emprendimiento familiar, hemos trabajado incansablemente para mejorar nuestras instalaciones y servicios.
+              Nuestra historia comenzó en 1978, cuando mis abuelos, Rosa del Pino y Enrique Elías, compraron un terreno en la calle Chacabuco al 200, en Termas de Río Hondo, Santiago del Estero. Con mucho esfuerzo y un gran espíritu emprendedor, 
+construyeron allí un pequeño residencial con apenas diez habitaciones. Era un lugar 
+sencillo, donde lo más importante era ofrecer descanso y un desayuno casero 
+preparado con cariño. El Hotel Enricar abrió sus puertas con el sueño de convertirse en un referente de hospitalidad en Termas de Río Hondo. Desde nuestros inicios como un pequeño emprendimiento familiar, hemos trabajado incansablemente para mejorar nuestras instalaciones y servicios.
             </p>
             <p>
               A lo largo de los años, hemos crecido junto a nuestros huéspedes, manteniendo siempre esa atención personalizada que nos caracteriza y que hace que quienes nos visitan, siempre vuelvan.
@@ -32,7 +35,11 @@ const AboutUs = () => {
           <div className="bg-emerald-800 text-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition duration-300 flex flex-col">
             <h3 className="text-2xl font-serif font-bold mb-4 border-b border-emerald-600 pb-2">Misión</h3>
             <p className="text-emerald-100 leading-relaxed flex-grow">
-              Proporcionar un servicio de alojamiento de calidad, confortable y accesible, garantizando la satisfacción de nuestros huéspedes a través de una atención cálida, personalizada y eficiente.
+              En Nuestro hotel, tenemos la misión de brindar a cada huésped una experiencia de 
+              alojamiento cálida, confortable y auténtica, basada en la hospitalidad familiar que nos 
+              caracteriza desde nuestros inicios. Nos esforzamos por combinar la tradición con la 
+               modernidad, ofreciendo servicios de calidad, atención personalizada y un ambiente 
+               tranquilo que invite al descanso y al disfrute. 
             </p>
           </div>
 
@@ -40,7 +47,11 @@ const AboutUs = () => {
           <div className="bg-white p-8 rounded-xl shadow-md border-t-4 border-emerald-800 hover:shadow-xl transition duration-300 flex flex-col">
             <h3 className="text-2xl font-serif font-bold text-emerald-800 mb-4 pb-2">Visión</h3>
             <p className="text-gray-700 leading-relaxed flex-grow">
-              Ser reconocidos como el hotel de 2 estrellas de referencia en Termas de Río Hondo, destacándonos por nuestra constante innovación, compromiso con la calidad y la excelencia en el trato humano.
+              Nuestra visión es seguir creciendo y ampliando nuestras instalaciones para llegar a 
+nuevos públicos y responder a las distintas necesidades del mercado. Nuestro objetivo 
+es convertirnos en un hotel de referencia en Termas de Río Hondo, reconocido no solo 
+por la calidad de nuestros servicios, sino también por el compromiso genuino con cada 
+huésped. 
             </p>
           </div>
 

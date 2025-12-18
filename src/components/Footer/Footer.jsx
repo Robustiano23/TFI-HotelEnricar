@@ -88,7 +88,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-10 md:mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4 text-xs text-gray-500">
           <p>© 2025 Hotel Enricar. Todos los derechos reservados.</p>
-          <p className="opacity-60">Desarrollado por Alumnos de Análisis de Sistemas</p>
+          <p className="opacity-60">Desarrollado por Robustiano Aguirre Cambera</p>
         </div>
       </div>
     </footer>

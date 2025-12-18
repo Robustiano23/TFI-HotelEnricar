@@ -10,5 +10,5 @@ export default defineConfig({
   // 2. Para subir a GitHub (npm run deploy): Quítale las // para activarla.
   // -----------------------------------------------------------------------
   
-  base: "/TFI-HotelEnricar/",
+  //base: "/TFI-HotelEnricar/",
 })
