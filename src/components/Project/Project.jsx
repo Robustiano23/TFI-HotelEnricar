@@ -9,28 +9,28 @@ const Project = () => {
       titulo: "Etapa 1: La Empresa", 
       desc: "Definición del perfil empresarial, misión, visión, organigrama y modelado de procesos de negocio (BPD).", 
       icon: <FileText size={24} />, 
-      link: "/TFI-HotelEnricar/docs/etapa1.pdf" 
+      link: "/docs/etapa1.pdf" 
     },
     { 
       id: 2, 
       titulo: "Etapa 2: Requerimientos", 
       desc: "Especificación de requisitos, reglas de dominio, análisis de stakeholders y visión general del producto.", 
       icon: <Database size={24} />, 
-      link: "/TFI-HotelEnricar/docs/etapa2.pdf" 
+      link: "/docs/etapa2.pdf" 
     },
     { 
       id: 3, 
       titulo: "Etapa 3: Análisis y Diseño", 
       desc: "Desarrollo de casos de uso, prototipos de interfaz, diagramas de secuencia y modelo de dominio.", 
       icon: <Code size={24} />, 
-      link: "/TFI-HotelEnricar/docs/etapa3.pdf" 
+      link: "/docs/etapa3.pdf" 
     },
     { 
       id: 4, 
       titulo: "Etapa 4: Gestión e Implementación", 
       desc: "Glosario técnico, informe de viabilidad (técnica, económica y operativa), gestión del proyecto y conclusiones.", 
       icon: <CheckCircle size={24} />, 
-      link: "/TFI-HotelEnricar/docs/etapa4.pdf" 
+      link: "/docs/etapa4.pdf" 
     },
   ];
 
